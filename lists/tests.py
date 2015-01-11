@@ -55,7 +55,7 @@ class HomePageTest(TestCase):
 		response = home_page(request)
 
 		self.assertIn('itemey 1', response.content.decode())
-		self.assertIn('itemey 2', response.content.dedoce())
+		self.assertIn('itemey 2', response.content.decode())
 
 
 
